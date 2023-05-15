@@ -21,6 +21,6 @@ int main()
 {
 	//bukunya.setJudul("Matematika");
 	//cout << bukunya.getJudul();
-	cout << bukunya.setJudul("Matematika").getJudul();  //chain function call
+	cout << bukunya.setJudul("Matematika").getJudul();  //chain function cal
 	return 0;
 }
