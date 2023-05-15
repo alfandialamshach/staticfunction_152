@@ -9,18 +9,18 @@ public:
 	int id;
 	string nama;
 
-	void setId();
+	void setID();
 	void printAll();
 
 	static void setNim(int pNim) { nim = pNim; /*definisi Function*/  }
 	static int getNim() { return nim; /*definisi function*/  }
 
-	mahasiswa(string pnama) :nama(pnama) { setId(); }
+	mahasiswa(string pnama) :nama(pnama) { setID();}
 };
 
 int mahasiswa::nim = 0;
 
-void mahasiswa::setId(); {
+void mahasiswa::setID() {
 	id = ++nim;
 }
 
