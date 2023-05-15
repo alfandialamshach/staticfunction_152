@@ -7,7 +7,7 @@ private:
 	static int nim;
 public:
 	int id;
-	string nama;
+	string nama; 
 
 	void setID();
 	void printAll();

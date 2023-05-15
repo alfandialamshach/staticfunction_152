@@ -15,7 +15,7 @@ public:
 		return this->judul;
 	}
 
-} bukunya;
+} bukunya; 
 
 int main()
 {
