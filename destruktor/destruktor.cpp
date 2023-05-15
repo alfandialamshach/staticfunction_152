@@ -41,7 +41,7 @@ void angka::isiData() {
 int main() {
 	angka belajarcpp(3);
 	angka* ptrBelajarcpp = new angka(5);
-	delete ptrBelajarcpp; //Destruktor dipanggil
+	delete ptrBelajarcpp; //Destruktor dipanggil 
 
 	return 0;
 }//Destructor dipanggil
